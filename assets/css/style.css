@@ -102,34 +102,78 @@ li {
 }
 
 /*=================================
-  Header styling starts here
-=================================*/
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
-
-/*=================================
   main styling starts here
 =================================*/
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-container {
+  max-width: 250px;
+  padding: 30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+  font-size: 90%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 { font-weight: 600;}
+
+.raiting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.raiting {
+  padding: 20px;
+  margin: 10px 5px;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+}
+
+.raiting.active,
+.raiting:hover {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+.raiting p { font-size: 10px; }
+
+.rating-img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.send-btn {
+  padding: 8px 30px;
+  border: 0;
+  border-radius: 4px;
+  margin: 10px 0  0;
+  background-color: #302d2b;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+}
 
 
 
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
