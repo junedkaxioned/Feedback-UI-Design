@@ -128,7 +128,7 @@ li {
 
 h1 { font-weight: 600;}
 
-.raiting-container {
+.rating-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,7 +136,7 @@ h1 { font-weight: 600;}
   gap: 10px;
 }
 
-.raiting {
+.rating {
   padding: 20px;
   margin: 10px 5px;
   cursor: pointer;
@@ -144,13 +144,13 @@ h1 { font-weight: 600;}
   text-align: center;
 }
 
-.raiting.active,
-.raiting:hover {
+.rating.active,
+.rating:hover {
   border-radius: 4px;
   box-shadow: 0 0 10px rgb(0 0 0 / 10%);
 }
 
-.raiting p { font-size: 10px; }
+.rating p { font-size: 10px; }
 
 .rating-img {
   width: 20px;
@@ -169,7 +169,26 @@ h1 { font-weight: 600;}
   font-size: 12px;
 }
 
+.heart{
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
 
+.heart::before {
+  content: '\f004';
+  padding: 10px 0;
+  display: block;
+  color: #ff0000;
+  font-family: 'FontAwesome';
+  font-size: 30px;
+}
+
+.feedback {
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
 
 /*=================================
   main styling ends here
